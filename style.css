@@ -1,0 +1,103 @@
+body{
+    font-family: sans-serif,'Times New Roman', Times, serif;
+}
+.banner-container{
+background-color: darkcyan;
+
+}
+.banner-column{
+background-color: aquamarine;
+border: 1p solid white;
+}
+.nav-item{
+  margin-right: 5px;
+}
+
+.nav-link{
+
+  border-radius: 10px;
+}
+.nav-link:hover{
+  background-color: #badbcc;
+}
+
+
+
+
+.navber-container{
+ background-color: papayawhip;
+
+
+}
+.about-container{
+background-color: rgb(173, 199, 204);
+padding: 2rem;
+
+
+
+}
+
+.education-container{
+  background-color: aquamarine;
+  padding: 4rem;
+}
+.circle{
+  border-radius: 50%;
+  background-color: red;
+  height: 125px;
+  width: 125px;
+  padding: 5px;
+  text-align: center;
+  
+
+
+
+}
+.card{
+padding-left: 2rem;
+
+
+
+}
+.protfolio-container{
+background-color: darkcyan;
+
+
+
+}
+.contacts-form{
+background-color: dimgray; 
+margin: auto;
+
+
+
+}
+.inner-form{
+  background-color: rgb(94, 78, 54)
+}
+.button{
+background-color: red;
+}
+.button:hover{
+  background-color: yellow;
+
+}
+.footer-container{
+  background-color: thistle;
+}
+.circle-footer{
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+  background-color: white;
+  display: inline-block;
+  font-size: 35px;
+  text-align: center;
+  color: blue;
+}
+.circle-footer:hover{
+  background-color: black;
+}
+.in{
+  color: white;
+}

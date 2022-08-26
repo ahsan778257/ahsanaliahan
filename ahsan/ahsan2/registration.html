@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration </title>
+
+    <style>
+        *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body{
+            margin: auto;
+            background-color: thistle;
+            padding: 5px;
+            min-height: 100vh;
+            display: flex;
+
+
+        }
+        .registration{
+            margin: auto;
+
+        }
+        .registration form{
+            background-color: cadetblue;
+            border-radius: 10px;
+            padding: 10px;
+
+        }
+        .formgroup{
+            padding: 4px;
+            font-size: 20px;
+    
+        }
+        #username{
+            width: 100%;
+            height: 60%;
+            padding: 5px;
+        }
+        #password{
+            width: 100%;
+            height: 60%;
+            padding: 5px;
+        }
+        #email{
+            width: 100%;
+            height: 60%;
+            padding: 5px;
+        }
+        .regist{
+            margin-left: 35%;
+            padding: 10px;
+        }
+        .btn{
+            padding: 5px;
+            font-size: 15px;
+            font-weight: 100;
+            outline: none;
+            background-color: rgb(177, 247, 38);
+            border-radius: 5px;
+            cursor: pointer;
+
+        }
+        .btn:hover{
+            background-color: rgb(12, 242, 250);
+        }
+    </style>
+</head>
+<body>
+    <div class="registration">
+            <form action="registration.php" method="POST">
+                <h1>Registration Form in PHP </h1>
+                <div class="formgroup">
+                     <label for="username">Username : </label>
+                     <input type="text" name="username" id="username" placeholder="Username" required>   
+                </div>
+                <div class="formgroup">
+                    <label for="password">Password : </label>
+                    <input type="password" name="password" id="password" placeholder="Password" required>   
+               </div>
+               <div class="formgroup">
+                <label for="email">Email : </label>
+                <input type="text" name="email" id="email" placeholder="email" required>   
+           </div>
+           <div class="regist">
+               <input type="submit" class="btn" value="Registration">
+           </div>
+
+
+
+
+
+
+            </form>
+
+
+
+
+
+    </div>
+
+
+
+
+
+
+</body>
+</html>

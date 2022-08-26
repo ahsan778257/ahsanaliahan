@@ -1,0 +1,18 @@
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+
+
+.form-group{
+
+
+    font-size: 24px;
+}
+.container{
+
+    margin: auto;
+}
